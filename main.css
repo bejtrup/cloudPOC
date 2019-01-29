@@ -1,0 +1,98 @@
+
+
+html, body {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 28px;
+    scroll-behavior: smooth;
+  }
+  
+  div{
+      box-sizing: border-box;
+  }
+  h1 {
+    letter-spacing: -6px;
+    font-family: Open Sans;
+    color: rgb(48, 48, 48);
+    font-size: 66px;
+    margin: 10vh 15vw;
+    font-weight: 800;
+    display: inline-table;
+  }
+  
+  .MainContainer {
+    perspective: 10px;
+    transform-style: preserve-3d;
+    height: 80vh;
+    width: 100vw;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    background-color: rgb(116, 116, 116);
+    padding-top: 25vh;
+  }
+  
+  .ContentContainer {
+    position: relative;
+    width: 200vw;
+    height: 200vh;
+    margin: 0 auto;
+    padding: 75px 0;
+    z-index: 1;
+    text-align: center;
+  }
+  
+.ParallaxContainer {
+    position: absolute;
+    width: 200vw;
+    text-align: center;
+}
+
+.ParallaxContainer.one{
+    transform: translateZ(-60px);
+    width: 783vw;
+    margin-left: -295vw;
+    margin-top: -166vh;
+  }
+  .ParallaxContainer.one h1{
+    margin: 90vh 180vw;
+    transform: scale(13);
+  }
+  .ParallaxContainer.two{
+    transform: translateZ(-50px);
+    width: 600vw;
+    margin-left: -197vw;
+    margin-top: -200vh;
+  }
+  .ParallaxContainer.two h1{
+    margin: 62vh 98vw;
+  }
+  .ParallaxContainer.three{
+    transform: translateZ(-40px);
+    width: 520vw;
+    margin-left: -156vw;
+    margin-top: -160vh;
+  }
+  .ParallaxContainer.three h1{
+    margin: 30vh 70vw;
+  }
+  .ParallaxContainer.four{
+    transform: translateZ(-30px);
+    width: 440vw;
+    margin-left: -120vw;
+    margin-top: -120vh;
+  }
+  .ParallaxContainer.four h1{
+    margin: 40vh 60vw;
+  }
+  .ParallaxContainer.five{
+    transform: translateZ(-10px);
+    width: 295VW;
+    margin-left: -48vw;
+    margin-top: -40vh;
+  }
+  .ParallaxContainer.five h1{
+    margin: 21vh 27vw;
+  }
+
+  @import url('https://fonts.googleaepis.com/css?family=Open+Sans:400,800');
+  
